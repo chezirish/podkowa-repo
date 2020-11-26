@@ -3,7 +3,7 @@
 .site-title-bar {
   @include hide-for(medium);
 }
-//
+
 .desktop-menu,
 .site-navigation .top-bar-left {
   @include show-for(medium);
