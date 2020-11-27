@@ -15,7 +15,7 @@
 	<div class="footer-grid">
 		<?php //dynamic_sidebar( 'footer-widgets' ); ?>
 
-		<section id="" class="">
+		<!-- <section id="" class="">
 		<h6>NAVIGATION</h6>
 		<ul>
 			<li><a href="">co nie co o nas</a></li>
@@ -23,7 +23,13 @@
 			<li><a href="">jak palimy kawę / skąd pochodzi</a></li>
 			<li><a href="">nasza galeria</a></li>
 			<li><a href="">kontakt</a></li>
-		</ul>
+		</ul> -->
+
+		<section id="" class="">
+		    <h6>NAVIGATION</h6>
+		<?php foundationpress_top_bar_r(); ?>
+		</section>
+		
 
 		</section>
 		<section id="" class="">
@@ -43,9 +49,9 @@
 		<section id="" class="">
 		<h6>SOCIAL</h6>
 		<ul>
-			<li><a href="">Facebook</a></li>
-			<li><a href="">Instagram</a></li>
-			<li><a href="">Twitter</a></li>
+			<li><a href="https://www.facebook.com/podkawastajniakawy">Facebook</a></li>
+			<li><a href="https://www.instagram.com/podkawa/">Instagram</a></li>
+			<!-- <li><a href="">Twitter</a></li> -->
 		</ul>
 
 		</section>

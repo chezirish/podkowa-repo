@@ -21,7 +21,7 @@ get_header(); ?>
 				<?php comments_template(); ?>
 			<?php endwhile; ?>
 		</main>
-		<?php get_sidebar(); ?>
+		<?php //get_sidebar(); ?>
 	</div>
 </div>
 <?php
