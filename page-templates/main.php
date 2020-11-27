@@ -129,7 +129,7 @@ get_header(); ?>
                 <span>69.99 PLN</span>
             </div>
         </div>
-        <a href="<?php echo wc_get_page_permalink( 'shop' ); ?>" <button type="button" class="button">WIĘCEJ</button></a>
+        <a href="<?php echo wc_get_page_permalink( 'shop' ); ?>"> <button type="button" class="button">WIĘCEJ</button></a>
          
     </div>
 </section>
