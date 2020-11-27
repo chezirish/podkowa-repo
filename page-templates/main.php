@@ -9,9 +9,10 @@ Template Name: Main
 <?php
 get_header(); ?>
 
-<!-- <div class="front_logo"> -->
-    <img class="front_logo" src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-1.png" alt="logo">
-<!-- </div> -->
+<div class="front_logo">
+    <img class="front_inner_logo" src="<?= get_template_directory_uri() ?>/dist/assets/images/output-onlinepngtools2.png" alt="logo">
+    <img class="front_logo" src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-1.png" alt="logo">
+</div>
 
 <section class="section section-info">
     <div class="section-content info">
@@ -24,10 +25,10 @@ get_header(); ?>
 </section>
 
 <section class="section section-image1">
-    <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-8.png" alt="nature">
+    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-8.png" alt="nature">
 </section>
 
-<section class="section section-info2" style="background-image:url(<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-6.png);background-size:cover;background-position:center">
+<section class="section section-info2" style="background-image:url(<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-6.png);background-size:cover;background-position:center">
     <div class="section-content info">
         <h1>Nasze źródła kawy zielonej</h1>
         <p>Jakość kawy nie zależy tylko od regionu geograficznego, z którego pochodzi, lecz również
@@ -36,7 +37,7 @@ get_header(); ?>
         Nie chcemy znaleźć łatwego wyjścia, którym byłoby po prostu kupowanie ton
         kilogramów średniej jakości ziaren kawy dostępnych na rynku. Zamiast tego jedziemy
         prosto do źródła aby osobiście zadbać o...</p>
-        <button type="button" class="button">WIĘCEJ</button>
+        <a href="<?php echo get_page_link(83); ?>"> <button type="button" class="button">WIĘCEJ</button></a>
     </div>
 </section>
 
@@ -48,23 +49,23 @@ get_header(); ?>
             W naszym przypadku nie nazywamy ich rolnikami, tylko chcemy nazywać ich naszymi
             Plantatorami. Dlaczego nie rolnicy? W krajach producentów kawy bardzo często rolnicy
             są kojarzeni z biedą i brakami w wykształceniu. </p>
-            <button type="button" class="button">WIĘCEJ</button>
+            <a href="<?php echo get_page_link(87); ?>"> <button type="button" class="button">WIĘCEJ</button></a>
         </div>
         <div class="section-info3-images">
             <div class="image-wrapper">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-20.png" alt="coffe">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-20.png" alt="coffe">
             </div>
             <div class="image-wrapper">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-19.png" alt="coffe">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-19.png" alt="coffe">
             </div>
             <div class="image-wrapper">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-3.png" alt="coffe">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-3.png" alt="coffe">
             </div>
             <div class="image-wrapper">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-5.png" alt="coffe">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-5.png" alt="coffe">
             </div>
             <div class="image-wrapper">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-4.png" alt="coffe">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-4.png" alt="coffe">
             </div>
             <div class="image-wrapper circle">
                 <p>więcej zdjęć</p>
@@ -77,10 +78,10 @@ get_header(); ?>
     <div class="section-content">
 
     </div>
-    <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-18.png" alt="coffe">
+    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-18.png" alt="coffe">
 </section>
 
-<section class="section section-info4 "  style="background-image:url(<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-6.png);background-size:cover;background-position:center">
+<section class="section section-info4 "  style="background-image:url(<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-6.png);background-size:cover;background-position:center">
     <div class="section-content info">
         <h1>Wypalanie</h1>
         <p>W Podkawie wypalamy kawę metodą rzemieślniczą. W ten sposób mamy 100% kontrolę
@@ -89,7 +90,7 @@ get_header(); ?>
         Staramy się wydobyć pełny potencjał każdej poszczególnej kawy jak np kwaskowatość,
         czekoladę, nuty ziołowe itp. Wypalamy kawę tylko na tyle, aby uzyskać idealny balans
         między słodyczą i cielistością, bez nadmiernego przepalenia ziaren.</p>
-        <button type="button" class="button">WIĘCEJ</button>
+         <a href="<?php echo get_page_link(89); ?>"> <button type="button" class="button">WIĘCEJ</button></a>
     </div>
 </section>
 
@@ -98,37 +99,38 @@ get_header(); ?>
         <h1>Posmakuj naszego świata / sklep</h1>
         <div class="product-item-wrapper">
             <div class="product-item">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-2.png" alt="product">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-2.png" alt="product">
                 <p>espresso roast</p>
                 <span>69.99 PLN</span>
             </div>
             <div class="product-item">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-2.png" alt="product">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-2.png" alt="product">
                 <p>espresso roast</p>
                 <span>69.99 PLN</span>
             </div>
             <div class="product-item">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-2.png" alt="product">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-2.png" alt="product">
                 <p>espresso roast</p>
                 <span>69.99 PLN</span>
             </div>
             <div class="product-item">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-2.png" alt="product">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-2.png" alt="product">
                 <p>espresso roast</p>
                 <span>69.99 PLN</span>
             </div>
             <div class="product-item">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-2.png" alt="product">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-2.png" alt="product">
                 <p>espresso roast</p>
                 <span>69.99 PLN</span>
             </div>
             <div class="product-item">
-                <img src="<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-2.png" alt="product">
+                <img src="<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-2.png" alt="product">
                 <p>espresso roast</p>
                 <span>69.99 PLN</span>
             </div>
         </div>
-        <button type="button" class="button">WIĘCEJ</button>
+        <a href="<?php echo wc_get_page_permalink( 'shop' ); ?>" <button type="button" class="button">WIĘCEJ</button></a>
+         
     </div>
 </section>
 
@@ -140,7 +142,7 @@ get_header(); ?>
             
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-1.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-1.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Robert Moczywąs</h4>   
@@ -152,7 +154,7 @@ get_header(); ?>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-2.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-2.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Weronika Latte</h4>   
@@ -165,7 +167,7 @@ niezmiennie przez nas...</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-3.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-3.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Miklosz
@@ -179,7 +181,7 @@ na tą jedną...</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-4.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-4.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Krzysztof
@@ -193,7 +195,7 @@ prawdziwa..</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-5.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-5.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Małgosia
@@ -220,7 +222,7 @@ eturiam estrum aut</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-6.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-6.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Szymon
@@ -234,7 +236,7 @@ prawdziwa...</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-7.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-7.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Joanna
@@ -249,8 +251,8 @@ prawdziwa...</p>
 
         </div>
 
-
-        <button type="button" class="button">POWRÓT</button>
+        <a href="<?php echo get_page_link(91); ?>"> <button type="button" class="button">WIĘCEJ</button></a>
+        
 
     </div>
 </section>

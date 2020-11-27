@@ -16,7 +16,7 @@ get_header(); ?>
             
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-1.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-1.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Robert Moczywąs</h4>   
@@ -28,7 +28,7 @@ get_header(); ?>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-2.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-2.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Weronika Latte</h4>   
@@ -41,7 +41,7 @@ niezmiennie przez nas...</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-3.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-3.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Miklosz
@@ -55,7 +55,7 @@ na tą jedną...</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-4.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-4.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Krzysztof
@@ -69,7 +69,7 @@ prawdziwa..</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-5.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-5.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Małgosia
@@ -96,7 +96,7 @@ eturiam estrum aut</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-6.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-6.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Szymon
@@ -110,7 +110,7 @@ prawdziwa...</p>
             </div>
             <div class="item">
                 <div class="comments-image-wrapper"  >
-                    <img src="<?= get_template_directory_uri() ?>/src/assets/images/5/Page-1-Image-7.png" alt="avatar">
+                    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/5/Page-1-Image-7.png" alt="avatar">
                 </div>
                 <div class="item-content">
                     <h4>Joanna
@@ -126,7 +126,8 @@ prawdziwa...</p>
         </div>
 
 
-        <button type="button" class="button">POWRÓT</button>
+      
+          <a href="<?php echo get_home_url(); ?>"> <button type="button" class="button">POWRÓT</button></a>
 
     </div>
 </section>

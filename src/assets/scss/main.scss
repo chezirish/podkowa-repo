@@ -17,6 +17,19 @@ footer {
     }
 }
 
+// .front_logo {
+//     position: relative;
+// }
+
+.front_inner_logo {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 25em;
+}
+
 .menu-icon::after {
     background: #350d0d;
     box-shadow: 0 7px 0 #350d0d, 0 14px 0 #350d0d;
@@ -289,6 +302,22 @@ section.section.section-image1.page-2 img{
    
 }
    
+
+@media screen and (max-width: 1250px) {
+    .front_inner_logo {
+        width: 15em;
+    }
+      
+}
+
+@media screen and (max-width: 750px) {
+    .front_inner_logo {
+        display: none;
+    }
+      
+}
+      
+      
 
 
 

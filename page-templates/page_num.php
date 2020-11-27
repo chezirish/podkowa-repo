@@ -13,11 +13,11 @@ get_header(); ?>
 
 
 <section class="section section-image1 page-2">
-    <img src="<?= get_template_directory_uri() ?>/src/assets/images/2/Page-1-Image-1.png" alt="nature">
-    <img src="<?= get_template_directory_uri() ?>/src/assets/images/2/Page-1-Image-2.png" alt="nature">
+    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/2/Page-1-Image-1.png" alt="nature">
+    <img src="<?= get_template_directory_uri() ?>/dist/assets/images/2/Page-1-Image-2.png" alt="nature">
 </section>
 
-<section class="section section-info4 "  style="background-image:url(<?= get_template_directory_uri() ?>/src/assets/images/1/Page-1-Image-6.png);background-size:cover;background-position:center">
+<section class="section section-info4 "  style="background-image:url(<?= get_template_directory_uri() ?>/dist/assets/images/1/Page-1-Image-6.png);background-size:cover;background-position:center">
     <div class="section-content info">
         <h1>Wypalanie</h1>
         <p>Jakość kawy nie zależy tylko od regionu geograficznego, z którego pochodzi, lecz również
@@ -42,7 +42,7 @@ nasi główni plantatorzy znajdują się na wyspie Flores w Indonezji. Współpr
 w ramię z Jaramite, przetwarzamy owoce kawowca na zielone ziarno. W przyszłości
 naszym planem jest współpraca z innymi plantatorami z różnych obszarów na całym
 świecie.</p>
-        <button type="button" class="button">WIĘCEJ</button>
+          <a href="<?php echo get_home_url(); ?>"> <button type="button" class="button">POWRÓT</button></a>
     </div>
 </section>
 
@@ -55,7 +55,7 @@ naszym planem jest współpraca z innymi plantatorami z różnych obszarów na c
             W naszym przypadku nie nazywamy ich rolnikami, tylko chcemy nazywać ich naszymi
             Plantatorami. Dlaczego nie rolnicy? W krajach producentów kawy bardzo często rolnicy
             są kojarzeni z biedą i brakami w wykształceniu. </p>
-            <button type="button" class="button">WIĘCEJ</button>
+              <a href="<?php echo get_home_url(); ?>"> <button type="button" class="button">POWRÓT</button></a>
         </div>
     </div>
 </section>
